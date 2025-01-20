@@ -1,5 +1,22 @@
-title: Mehmet Yildirim
-#logo: /assets/ing/headshot_circle.png
-#description: text below image
-show_downloads: true
+title: "Data Analyst Portfolio"
+description: "Showcasing my data analysis projects and skills."
 theme: jekyll-theme-minimal
+permalink: /:path/
+author: 
+  name: "Your Name"
+  email: "your-email@example.com"
+  github: "https://github.com/your-username"
+  linkedin: "https://www.linkedin.com/in/your-profile"
+
+# Optional social links
+social_links:
+  - name: "GitHub"
+    url: "https://github.com/your-username"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/your-profile"
+
+# Optional navigation menu
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
