@@ -1,22 +1,17 @@
 title: "Data Analyst Portfolio"
-description: "Showcasing my data analysis projects and skills."
-theme: jekyll-theme-minimal
-permalink: /:path/
-author: 
-  name: "Your Name"
-  email: "your-email@example.com"
-  github: "https://github.com/your-username"
-  linkedin: "https://www.linkedin.com/in/your-profile"
+description: "Showcasing my projects, skills, and accomplishments in data analysis."
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Optional social links
-social_links:
-  - name: "GitHub"
-    url: "https://github.com/your-username"
-  - name: "LinkedIn"
-    url: "https://www.linkedin.com/in/your-profile"
-
-# Optional navigation menu
-header_pages:
-  - index.md
-  - about.md
-  - projects.md
+# Optional: Customize the theme
+theme_config:
+  social_links:
+    - name: "GitHub"
+      url: "https://github.com/your-username"
+    - name: "LinkedIn"
+      url: "https://linkedin.com/in/your-profile"
+  logo: "/assets/images/logo.png" # Add your logo file here
+  search_enabled: true
